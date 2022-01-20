@@ -14,7 +14,7 @@
     "react-scripts": "3.4.3"
   },
   "scripts": {
-    "predeploy":"gh-pages -d build",
+    "predeploy":"npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts --openssl-legacy-provider start",
     "build": "CI= react-scripts build",
