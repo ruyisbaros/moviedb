@@ -12,6 +12,7 @@ const AppProvider = ({ children }) => {
 
   const fetchMovies = async (url) => {
     setIsLoading(true);
+    //these codes
     try {
       const response = await fetch(url);
       const data = await response.json();
